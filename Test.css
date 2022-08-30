@@ -1,0 +1,176 @@
+@media all{
+
+    
+}
+
+
+#MM{     
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top:90px;
+    right:0;
+    
+    font-family:initial ;
+    background-color: darkmagenta;
+
+
+    z-index: 1;
+ 
+
+   
+    
+}
+#SH{
+    color: green;
+    font-size: medium;
+    font-family: initial;
+    position: absolute;
+    top:90px;
+    right:0;
+    z-index:0 ;
+    background-color: blue;
+    animation: color 3s infinite ;
+
+}
+@keyframes color{
+    0%{background-color: red;}
+    50%{background-color: black;}
+    100%{background-color: yellow;}
+}
+
+
+
+h1{
+    text-align: center;
+    color: gold;
+    background-color:rgb(255, 8, 8) ;
+     
+    background-size: 1000px;
+    font-family: fantasy;
+    letter-spacing: 10px;
+    font-weight: 400;
+    /* ازاحه داخلية */
+    /* padding-left: 100px; */
+    /* ازاحه خارجية */
+    margin-right:auto;
+    margin-left: auto;
+    
+
+
+    
+}
+
+
+
+#S1{
+    color: rgb(235, 9, 9);
+    font-size: large;
+    font-family: Fantasy;
+    line-height: 100px;
+}
+#S2{
+    color: blueviolet;
+}
+#f4{
+    color: crimson;
+}
+
+input[value="Start" ] {
+    background-color: blue;
+}
+input[type="text"]{
+    background-color: rgb(236, 252, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    
+}
+
+
+#PSS p{
+    color: blueviolet;
+ float:left;
+  font-size: 15px;
+  letter-spacing:5px;
+
+}
+#CL{
+    float:right;
+
+    
+    
+
+
+
+}
+
+
+
+a{
+    color:rgb(219, 20, 20);
+    font-family:fantasy;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+   
+}
+
+a:hover{
+    color: rgb(205, 179, 10);
+    font-family:unset;
+    font-weight: 200;
+    font-size: 15px;
+}
+a:visited{
+    color:blue;
+    background-color: darkkhaki;
+
+}
+
+
+
+ul{
+    font-family: monospace;
+}
+#S99{
+    color: midnightblue;
+    background-color: darkmagenta;
+    position: absolute;
+    top:200px;
+    right:0;
+
+}
+
+::selection{
+    color: rgb(153, 39, 224);
+    background-color: darkred;
+
+
+
+
+}
+
+
+#US:focus{
+    color: chocolate;
+    border: rgb(132, 255, 0) solid;
+  
+}
+
+/* جعل الموقع متجاوب مع كل الاحهزه */
+@media screen and(max-width:500px) {
+    #SH{
+        background-color: black;
+    }
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+}
+@media screen and (min-width:501px) and (max-width:760px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+
+
+
